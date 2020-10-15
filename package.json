@@ -1,0 +1,35 @@
+{
+  "name": "create-project",
+  "version": "1.0.0",
+  "description": "A CLI tool to bootstrap new web development projects",
+  "main": "src/index.js",
+  "bin": {
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ioalex/create-project.git"
+  },
+  "keywords": [
+    "cli",
+    "create-project",
+    "bootstrap"
+  ],
+  "author": "Alex He <alex@alexhe.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ioalex/create-project/issues"
+  },
+  "homepage": "https://github.com/ioalex/create-project#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "inquirer": "^7.3.3"
+  }
+}
